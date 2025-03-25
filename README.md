@@ -32,8 +32,3 @@ This project predicts life expectancy using global health and economic data. Bui
 
 ## 🔗 Links  
 [Notebook Preview (nbviewer)](https://nbviewer.org/github/YOUR_USERNAME/life_expectancy_regression/blob/main/life_expectancy_model_FIXED.ipynb)
-
-## 🧑‍💻 Author  
-Nathaniel Hawley  
-Business Analytics @ ASU  
-[LinkedIn](https://linkedin.com/in/YOUR_HANDLE)
