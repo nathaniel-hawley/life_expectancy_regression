@@ -1,48 +1,39 @@
 # 📈 Life Expectancy Prediction with Regression Models
 
-This project uses regression modeling to predict a country's life expectancy based on global health, education, and economic indicators.
+This project predicts life expectancy using global health and economic data. Built in Python using sklearn, statsmodels, and LazyPredict.
 
 ## 📊 Overview
+- Cleaned and imputed real-world dataset from UCI
+- Used Linear, Polynomial, and Ensemble models
+- Best model: Extra Trees Regressor (R² = 0.97)
 
-Using the UCI Life Expectancy dataset, I evaluated multiple regression models including linear, polynomial, and ensemble methods. The goal was to maximize predictive performance while identifying key factors that impact life expectancy.
+## 📁 Files
+- `life_expectancy_model_FIXED.ipynb` — full code notebook
+- `requirements.txt` — package list
+- `images/` — visualizations
 
-## 🧠 Key Features
-
-- Cleaned and normalized multivariate data
-- Tested linear vs. non-linear regression models
-- Used LazyPredict for model benchmarking
-- Evaluated results using R², MAE, and residual analysis
-- Achieved **R² = 0.97** with ExtraTreesRegressor
-
-## 🛠️ Models Tested
-
-- ✅ Extra Trees Regressor (Best performance)
-- Random Forest
-- LightGBM
-- Ridge Regression
-- Multiple Linear Regression
+## 🔍 Models Tested
+- Extra Trees ✅
+- Linear Regression
 - Polynomial Regression
+- Ridge, LGBM, Random Forest, etc.
 
 ## 📈 Results Summary
 
-| Model                    | R² Score |
-|--------------------------|----------|
-| Extra Trees Regressor    | 0.97     |
-| Random Forest            | 0.96     |
-| Multiple Linear Regression | 0.76   |
-| Polynomial Regression    | -3.31 (overfit)
+| Model                  | R² Score |
+|------------------------|----------|
+| Extra Trees Regressor  | 0.97     |
+| Random Forest          | 0.96     |
+| Linear Regression      | 0.76     |
+| Polynomial Regression  | -3.31    |
 
-## 📁 Files Included
-
-- `life_expectancy_model.ipynb` – full notebook
-- `images/` – feature importance, residuals, model diagnostics
-- `requirements.txt` – Python packages used
-
-## 🧪 Data Source
-
+## 🧪 Data Source  
 [UCI Life Expectancy Dataset](https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who)
 
-## 🚀 How to Run
+## 🔗 Links  
+[Notebook Preview (nbviewer)](https://nbviewer.org/github/YOUR_USERNAME/life_expectancy_regression/blob/main/life_expectancy_model_FIXED.ipynb)
 
-```bash
-pip install -r requirements.txt
+## 🧑‍💻 Author  
+Nathaniel Hawley  
+Business Analytics @ ASU  
+[LinkedIn](https://linkedin.com/in/YOUR_HANDLE)
