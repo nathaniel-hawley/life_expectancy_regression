@@ -29,6 +29,3 @@ This project predicts life expectancy using global health and economic data. Bui
 
 ## 🧪 Data Source  
 [UCI Life Expectancy Dataset](https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who)
-
-## 🔗 Links  
-[Notebook Preview (nbviewer)](https://nbviewer.org/github/YOUR_USERNAME/life_expectancy_regression/blob/main/life_expectancy_model_FIXED.ipynb)
